@@ -3,6 +3,7 @@ import numpy as np
 import streamlit as st
 import joblib as jl
 from backend import predict
+import sklearn
 
 
 @st.cache
