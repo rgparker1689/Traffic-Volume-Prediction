@@ -24,4 +24,4 @@ exported_pipeline = make_pipeline(
 )
 
 exported_pipeline.fit(training_features, training_target)
-jl.dump(exported_pipeline, 'model.pkl')
+jl.dump(exported_pipeline, 'model/model.pkl')
