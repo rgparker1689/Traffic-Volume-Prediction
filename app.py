@@ -2,10 +2,6 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 import joblib as jl
-from sklearn.model_selection import train_test_split
-from sklearn.neighbors import KNeighborsRegressor
-from sklearn.pipeline import make_pipeline
-from sklearn.preprocessing import MinMaxScaler
 from backend import predict
 
 
