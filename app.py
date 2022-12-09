@@ -13,7 +13,7 @@ def load():
 st.title('I-94 Traffic Volume Predictor')
 st.header('Enter information about the situation for which you\'d like to predict traffic:')
 day = st.selectbox('Day of Week:', ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'])
-time_of_day = st.selectbox('Time of Day:') ['Early Morning', 'Morning', 'Late Morning', 'Afternoon', 'Evening', 'Night']
+time_of_day = st.selectbox('Time of Day:', ['Early Morning', 'Morning', 'Late Morning', 'Afternoon', 'Evening', 'Night'])
 month = st.selectbox('Month:', ['January', 'February', 'March', 'April', 'May', 'June',
                                 'July', 'August', 'September', 'October', 'November', 'December'])
 temperature = st.slider('Temperature (F):', -32, 120, 75)
